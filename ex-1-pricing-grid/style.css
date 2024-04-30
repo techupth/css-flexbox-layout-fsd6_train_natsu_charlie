@@ -1,1 +1,67 @@
 /* Start coding here */
+body {
+  background: linear-gradient(90deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+}
+.outside {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.topic {
+  width: 150px;
+  padding: 20px;
+  background-color: #d8a8d8;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-topic {
+  font-size: 24px;
+  color: white;
+  margin: 0px 0px 20px 0px;
+}
+
+.description,
+.feature {
+  font-size: 16px;
+}
+
+.description {
+  margin: 0px 0px 20px 0px;
+}
+
+.feature {
+  margin: 0px 0px 10px 0px;
+}
+
+hr {
+  border: 1px solid #a9a9a9;
+  width: 150px;
+  margin: 0px 0px 10px 0px;
+}
+
+.big-text {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+button {
+  height: 50px;
+  background-color: yellow;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
