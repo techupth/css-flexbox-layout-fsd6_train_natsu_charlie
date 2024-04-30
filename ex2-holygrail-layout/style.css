@@ -1,1 +1,49 @@
 /* Start coding here */
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  background-color: green;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+}
+p {
+  font-size: 24px;
+  font-weight: 600;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+}
+nav,
+.section-advertisement,
+.section-content {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  width: 23%;
+}
+.section-content {
+  width: 53%;
+}
+.section-advertisement {
+  width: 23%;
+}
+footer {
+  display: flex;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
