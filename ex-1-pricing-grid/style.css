@@ -1,1 +1,50 @@
 /* Start coding here */
+* {
+  text-align: center;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgb(211, 82, 183),
+    rgb(55, 126, 219)
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pet-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.pet-box {
+  background-color: rgb(175, 156, 221);
+  flex-basis: 15%;
+  padding: 20px;
+}
+
+.pet-title {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.pet-price {
+  font-size: 3rem;
+}
+
+.pet-button {
+  background-color: yellow;
+  border: 0px;
+  border-radius: 5%;
+  width: 100%;
+  padding: 10px;
+}
